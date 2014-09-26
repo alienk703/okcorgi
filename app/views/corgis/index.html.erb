@@ -1,8 +1,8 @@
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <div class="clearfix">
   <div class="corgi-container" id="misses">
     <h2>Thanks, but No Thanks</h2>
     <ul>
-      
       <%  @misses.each do |m| %>
       <li data-id="<%=m.id%>" class="corgi">
         <h3><%= m.name %></h3>
@@ -10,8 +10,6 @@
       </li>
       <% end %>
     </ul>
-
-
   </div>
 
   <div class="corgi-container" id="candidates">
@@ -25,6 +23,7 @@
           <%= image_tag corgi.profile_img, :class => "pic" %>
           <p class="bio"><%= corgi.bio %></p>
         </li>
+        
       <% end %>
 
     </ul>

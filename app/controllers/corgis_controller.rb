@@ -76,4 +76,4 @@ end
     def corgi_params
       params.require(:corgi).permit(:name, :bio, :match, :profile_img)
     end
-end
+# end

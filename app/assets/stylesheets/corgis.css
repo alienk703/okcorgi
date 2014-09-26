@@ -3,20 +3,36 @@ ul { list-style: none; }
 .hidden { display: none; }
 
 .corgi-container {
+  font-family: 'Indie Flower', cursive;
   text-align: center;
   float: left;
 }
 
 #candidates {
+  font-family: 'Indie Flower', cursive;
   margin: 0px auto;
   width: 50%;
 }
 
+h3{
+
+  font-family: 'Indie Flower', cursive;
+  font-size: 150%;
+}
+
+.bio {
+  font-size: 200%;
+  font-family: 'Indie Flower', cursive;
+}
+
 #misses, #matches { width: 25%; }
 
-#candidates .corgi.active .pic { width: 50%; }
+#candidates .corgi.active .pic { 
+  font-family: 'Indie Flower', cursive;
+  width: 50%; }
 
 #misses .corgi .pic, #matches .corgi .pic {
+  font-family: 'Indie Flower', cursive;
   width: 100px;
   height: 100px;
 }
@@ -29,7 +45,8 @@ ul { list-style: none; }
      clear: both;
      height: 0;
      }
-.clearfix { display: inline-block; }
+.clearfix { display: inline-block; 
+background-color: #E6B280; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
